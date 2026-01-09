@@ -13,22 +13,24 @@ All values (domains, IPs, names) are dummy and non-confidential.
 
 ## Repository Structure
 
+```text
+.
 ├── README.md
-├── iac/
-│ ├── backend.tf
-│ ├── modules/
-│ │ ├── network/
-│ │ ├── firewall/
-│ │ └── compute/
-│ └── envs/
-│ ├── dev/
-│ ├── staging/
-│ └── prod/
-└── docs/
-├── environment_and_networks.md
-├── security_controls.md
-├── governance_flow.md
-└── incident_response.md
+├── docs/
+│   ├── incident_response.md
+│   ├── environment_and_networks.md
+│   ├── security_controls.md
+│   └── governance_flow.md
+└── iac/
+    ├── backend.tf
+    ├── modules/
+    │   ├── network/
+    │   ├── firewall/
+    │   └── compute/
+    └── envs/
+        ├── dev/
+        ├── staging/
+        └── prod/
 
 
 ---
